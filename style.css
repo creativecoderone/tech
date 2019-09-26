@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Baumans|Didact+Gothic|Fredoka+One|Manjari|Pacifico|Quicksand|Reem+Kufi|Righteous|Tenali+Ramakrishna&display=swap');
+.title {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #b388ff;
+}
+#description {
+  text-align: center;
+  font-family: "Tenali Ramakrishna", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+}
+#box {
+  padding: 10px;
+  border-right: 10px solid #b388ff;
+  border-radius: 0px;
+}
+.label {
+  margin: 3px;
+}
+input[type="checkbox"] {
+  margin: 5px;
+}
+input {
+  border-right: 3px solid #b388ff;
+  border-radius: 0px;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+nav {
+  z-index: 99;
+}
+.navs {
+  display: flex;
+  float: right;
+}
+.nav-link {
+  margin: 5px;
+  background-color: white;
+  text-decoration: none;
+  color: darkgray;
+  border-radius: 5px;
+  /*border: 2px solid #b388ff;*/
+}
+a:hover {
+  text-decoration: none;
+  /*font-weight: bold;*/
+  color: #b388ff;
+}
+#navtext {
+  margin: 15px;
+  padding: 15px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  width: 100%;
+  background-color: white;
+  color: darkgray;
+  text-decoration: none;
+}
+* {
+  scroll-behavior: smooth;
+}
+#submit {
+  background-color: #b388ff;
+  color: white;
+}
+h2 {
+  color: #b388ff;
+}
+
+.imgg {
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+#home {
+  margin-top: 125px;
+}
+.cc {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.card {
+  margin: 0px 5px 0px 5px;
+}
+.cc:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.carder {
+  height: 85vh;
+  overflow: auto;
+}
+.main-section {
+  margin: 15px;
+  padding: 10px;
+  border-bottom: 3px dotted #b388ff;
+}
+header {
+  font-weight: bold;
+  font-size: 24px;
+}
